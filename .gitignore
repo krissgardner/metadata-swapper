@@ -1,0 +1,8 @@
+# Input source
+input
+
+# Env
+.venv
+
+# Editor
+.idea
