@@ -3,6 +3,7 @@ input
 
 # Env
 .venv
+.DS_Store
 
 # Editor
 .idea
