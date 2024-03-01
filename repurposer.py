@@ -108,8 +108,11 @@ if __name__ == "__main__":
     num_folders = int(input("Enter the number of folders to create: "))
     total_cleaned = 0  # Initialize the total number of cleaned images
 
+    # Create a directory for the modified images
+    os.makedirs('output', exist_ok=True)
+
     for folder_index in range(1, num_folders + 1):
-        output_directory = f"output {folder_index}"
+        output_directory = f"output/output {folder_index}"
 
         # Create a directory for the modified images
         os.makedirs(output_directory, exist_ok=True)
